@@ -8,8 +8,8 @@ import Gwiadza from "../../images/kiedy/gwiazda.svg"
 import Wezel from "../../images/kiedy/wezel.svg"
 
 const info = [
-    { name: 'Gwiadza', src:`${Gwiadza}`, background:'bg-gray-2', class:'', delay: 0.2, text: false},
-    { name: 'Text1', background:'bg-purple-3', class:'', delay: 0.4, text: true,
+    { name: 'Gwiadza', src:`${Gwiadza}`, background:'bg-gray-2', class:'', delay: 0.1, text: false},
+    { name: 'Text1', background:'bg-purple-3', class:'', delay: 0.2, text: true,
     title:"Kiedy to jest? / Cuándo es?",
     textPl:"22 lutego - 10:00",
     textEs:"22 de febrero - 10:00",

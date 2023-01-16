@@ -9,10 +9,10 @@ import Golab from "../../images/co/golab.svg"
 
 const info = {
     images: [
-        { name: 'Robert Baden-Powell`', src:`${Kapelusz}`, background:'bg-pink-1', delay: 0.2, text: false},
-        { name: 'Robert Baden-Powell1', src:`${Ziemia}`, background:'bg-blue-1', delay: 0.2, text: false},
-        { name: 'Robert Baden-Powell2', src:`${Pokoj}`, background:'bg-lime', delay: 0.2, text: false},
-        { name: 'Robert Baden-Powell3', src:`${Golab}`, background:'bg-orange-2', delay: 0.2, text: false},
+        { name: 'Robert Baden-Powell`', src:`${Kapelusz}`, background:'bg-pink-1', delay: 0.1, text: false},
+        { name: 'Robert Baden-Powell1', src:`${Ziemia}`, background:'bg-blue-1', delay: 0.15, text: false},
+        { name: 'Robert Baden-Powell2', src:`${Pokoj}`, background:'bg-lime', delay: 0.1, text: false},
+        { name: 'Robert Baden-Powell3', src:`${Golab}`, background:'bg-orange-2', delay: 0.15, text: false},
     ],
     text: [
         {name: 'Text', background:'bg-green-2', class:'',
@@ -57,7 +57,7 @@ const Haslo = () => {
                             damping: 10,
                             stiffness: 70,
                             restDelta: 0.001,
-                            delay: 0.4,
+                            delay: 0.2,
                         }}
                         className="w-auto h-full flex flex-col justify-center text-center 
                         py-24 xs:py-24 sm:py-24 md:py-14 lg:py-20 xl:py-24 2xl:py-24

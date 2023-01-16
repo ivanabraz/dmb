@@ -81,6 +81,9 @@ const NavBar = () => {
                                 ))}
                             </div>
                             <div className="hidden lg:flex lg:block lg:self-stretch flex justify-between space-x-8">
+                            <p className="block text-white">
+                                        ZHP Argentyna
+                                    </p>
                                 {navigation.social.map((page) => (
                                     <div key={page.name}>
                                         <a href={"https://" + page.href} className="block text-white" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}>

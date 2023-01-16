@@ -7,14 +7,14 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import Namiot from "../../images/gdzie/namiot.svg"
 
 const info = [
-    { name: 'Text1', background:'bg-blue-3', class:'', delay: 0.4, text: true,
+    { name: 'Text1', background:'bg-blue-3', class:'', delay: 0.2, text: true,
     title:"Gdzie to jest? / Dónde es?",
     textPl:"Polski Ośrodek Młodzieżowy (POM)",
     textEs:"Centro Juvenil Polaco",
     adres1:"Av. Japón 2250, Burzaco,",
     adres2:"Provincia de Buenos Aires",
     },
-    { name: 'Namiot', src:`${Namiot}`, background:'bg-pink-2', class:'', delay: 0.2, text: false},
+    { name: 'Namiot', src:`${Namiot}`, background:'bg-pink-2', class:'', delay: 0.1, text: false},
 ]
 
 const Gdzie = () => {
