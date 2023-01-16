@@ -133,7 +133,7 @@
 
 /* Font style */
 .font-italic {
-    font-style: italic;
+    font-style: italic !important;
 }
 
 /* General */

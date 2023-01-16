@@ -16,16 +16,16 @@ const images = [
     { name: 'D', src:`${D}`, background:'bg-blue-3', class:'', delay: 0.4},
     { name: 'M', src:`${M}`, background:'bg-pink-2', class:'', delay: 0.5},
     { name: 'Lilijka', src:`${Lilijka}`, background:'bg-green-2', class:'', delay: 0.3},
-    { name: 'Golab', src:`${Golab}`, background:'bg-red', class:'xs:hidden sm:hidden md:hidden lg:flex xl:flex', delay: 0.5},
+    { name: 'Golab', src:`${Golab}`, background:'bg-red', class:'hidden xs:hidden sm:hidden md:hidden lg:flex xl:flex 2xl:flex', delay: 0.5},
     { name: 'B', src:`${B}`, background:'bg-gray-2', class:'', delay: 0.5},
     { name: 'Rok', src:`${Rok}`, background:'bg-neutral-6', class:'', delay: 0.4},
-    { name: 'Wezel', src:`${Wezel}`, background:'bg-purple-3', class:'xs:hidden sm:hidden md:hidden lg:flex xl:flex', delay: 0.2},
+    { name: 'Wezel', src:`${Wezel}`, background:'bg-purple-3', class:'hidden xs:hidden sm:hidden md:hidden lg:flex xl:flex 2xl:flex', delay: 0.2},
 ]
 
 const Header = () => {
     return (
             <div className="w-full h-full grid gap-0
-                        grid-cols-4 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4">
+                        grid-cols-2 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4">
                 {images.map((i) => (
                     <div key={i.name} className={`${i.background} ${i.class} flex items-center justify-center h-full`}>
                         <motion.img
