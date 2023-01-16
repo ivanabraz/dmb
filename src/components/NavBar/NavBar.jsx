@@ -54,13 +54,18 @@ const NavBar = () => {
                                             </NavHashLink>
                                         </div>
                                     ))}
-                                    {navigation.social.map((page) => (
-                                        <div key={page.name}>
-                                        <a href={"https://" + page.href} className="block text-white text-xl xs:text-xl sm:text-xl lg:text-xl" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}>
-                                            {page.icon}
-                                        </a>
+                                    <div className="flex flex-row justify-around">
+                                        {navigation.social.map((page) => (
+                                            <div key={page.name}>
+                                                <a href={"https://" + page.href} className="block text-white text-3xl xs:text-3xl sm:text-2xl lg:text-xl py-5" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}>
+                                                    {page.icon}
+                                                </a>
+                                            </div>
+                                        ))}                                        
                                     </div>
-                                    ))}
+                                    <p className="block text-white">
+                                        ZHP Argentyna
+                                    </p>
                                 </div>
                             </div>
                         </Transition.Child>
@@ -81,9 +86,9 @@ const NavBar = () => {
                                 ))}
                             </div>
                             <div className="hidden lg:flex lg:block lg:self-stretch flex justify-between space-x-8">
-                            <p className="block text-white">
-                                        ZHP Argentyna
-                                    </p>
+                                <p className="block text-white">
+                                    ZHP Argentyna
+                                </p>
                                 {navigation.social.map((page) => (
                                     <div key={page.name}>
                                         <a href={"https://" + page.href} className="block text-white" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}>
