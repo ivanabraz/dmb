@@ -11,7 +11,7 @@ import { NavBarContext } from '../../context/NavBarContext';
 
 const navigation = {
     pages: [
-        { name: 'Co?', href: '#co', icon:'', target:'_self' },
+        { name: 'Co?', href: '#top', icon:'', target:'_self' },
         { name: 'Gdzie?', href: '#gdzie', icon:'', target:'_self' },
         { name: 'Kiedy?', href: '#kiedy', icon:'', target:'_self' },
     ],
@@ -67,10 +67,10 @@ const NavBar = () => {
                 </Transition.Root>
     
                 {/* Desktop menu */}
-                <header className="sticky top-0 p-12 z-40 text-xl xs:text-xl sm:text-xl lg:text-xl ">
+                <header className="fixed w-full top-0 py-8 px-12 z-40 text-xl xs:text-xl sm:text-xl lg:text-xl ">
                     <nav aria-label="Top" className="mx-auto">
                         <div className="h-16 flex justify-between align-middle">
-                            <div className="hidden lg:flex lg:block lg:self-stretch flex justify-between space-x-8">
+                            <div className="hidden lg:flex lg:block lg:self-stretch flex justify-between space-x-12">
                                 {navigation.pages.map((page) => (
                                     <div key={page.name} >
                                         <Link to={page.href} className="flex items-center text-white border-b border-transparent hover:border-solid hover:border-b hover:border-white" onClick={() => setOpen(false)}> 
