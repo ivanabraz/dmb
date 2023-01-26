@@ -15,6 +15,7 @@ const navigation = {
         { name: 'Co?', href: '/#co', icon:'', target:'_self' },
         { name: 'Gdzie?', href: '/#gdzie', icon:'', target:'_self' },
         { name: 'Kiedy?', href: '/#kiedy', icon:'', target:'_self' },
+        { name: 'Program', href: '/#program', icon:'', target:'_self' },
     ],
     social: [
         { name: 'Instagram', icon: <FontAwesomeIcon icon={faInstagram} />, href: 'instagram.com/harcerstwoargentyna/'},

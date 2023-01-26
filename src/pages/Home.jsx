@@ -5,6 +5,7 @@ import Haslo from '../components/Haslo/Haslo';
 import Header from '../components/Header/Header';
 import HeroText from '../components/HeroText/HeroText';
 import Kiedy from '../components/Kiedy/Kiedy';
+import Program from '../components/Program/Program';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Haslo/>
             <Gdzie/>
             <Kiedy/>
+            <Program/>
             <HeroText title="Związek Harcerstwa Polskiego w Argentynie" backgroundColor="bg-green-2"/>
         </Fragment>
     );

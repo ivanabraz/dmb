@@ -10,7 +10,7 @@ import Chusta from "../../images/co/chusta.svg"
 const info = [
     { name: 'Robert Baden-Powell', src:`${Robert}`, background:'bg-blue-3', class:'', delay: 0.2, text: false},
     { name: 'Text1', background:'bg-green-2', class:'', delay: 0.1, text: true,
-    title:"Co to jest? / Qué es?",
+    title:"Co? / Qué es?",
     textPl:"PL → 22 lutego to dzień upamiętniający urodziny Roberta i Olave Baden-Powell. To dzięki parze Naczelnych Skautów ludzie z całego globu od ponad stu lat nawiązują ze sobą i ze światem skautowe więzi.",
     textEs:"ES → El 22 de febrero se conmemora el cumpleaños de Robert y Olave Baden-Powell. Es gracias a un par de Jefes Scouts que personas de todo el planeta han forjado durante más de un siglo lazos escultistas entre sí y con el mundo.",
     },
