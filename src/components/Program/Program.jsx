@@ -11,13 +11,13 @@ const info = [
         title:"Program / Programa",
         infoProgram: [
             {
-                time:'09:30',
-                activity:'Konwokacja',
+                time:'09:00',
+                activity:'Zbiórka',
                 delay: 0.1,
             },
             {
-                time:'10:00',
-                activity:'Zbiórka',
+                time:'09:30',
+                activity:'Wycieczka',
                 delay: 0.2,
             },
             {
