@@ -16,19 +16,14 @@ const info = [
                 delay: 0.1,
             },
             {
-                time:'09:30',
-                activity:'Wycieczka',
-                delay: 0.2,
-            },
-            {
                 time:'13:00',
                 activity:'Obiad',
-                delay: 0.3,
+                delay: 0.2,
             },
             {
                 time:'17:00',
                 activity:'Ognisko',
-                delay: 0.4,
+                delay: 0.3,
             },
         ],
     },

@@ -12,9 +12,9 @@ const info = [
         delay: 0.2,
         text: true,
         title:"Gdzie? / Dónde?",
-        textPl:"Maciaszkowo",
-        textEs:"Martín Coronado",
-        adres1:"Juan Pablo II 2360, Martín Coronado",
+        textPl:"Polski Osrodek Mlodziezowy",
+        textEs:"(POM) Centro Juvenil Polaco",
+        adres1:"Av. Japón 2250, Burzaco",
         adres2:"Provincia de Buenos Aires",
     },
 ]
