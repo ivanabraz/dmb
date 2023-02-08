@@ -12,7 +12,7 @@ const info = [
         delay: 0.2,
         text: true,
         title:"Gdzie? / Dónde?",
-        textPl:"Polski Osrodek Mlodziezowy",
+        textPl:"Polski Ośrodek Młodzieżowy",
         textEs:"(POM) Centro Juvenil Polaco",
         adres1:"Av. Japón 2250, Burzaco",
         adres2:"Provincia de Buenos Aires",
