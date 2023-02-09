@@ -11,8 +11,9 @@ const info = [
     { name: 'Gwiadza', src:`${Gwiadza}`, background:'bg-gray-2', class:'', delay: 0.1, text: false},
     { name: 'Text1', background:'bg-purple-3', class:'', delay: 0.2, text: true,
     title:"Kiedy? / Cuándo?",
-    textPl:"25 lutego - 09:00",
-    textEs:"25 de febrero - 9:00",
+    textPl:"25 lutego",
+    textEs:"25 de febrero",
+    time:"10:00 a.m.",
     },
     { name: 'Wezel', src:`${Wezel}`, background:'bg-red', class:'', delay: 0.1, text: false},
 ]
@@ -60,8 +61,11 @@ const Kiedy = () => {
                                 <p className="text-3xl xs:text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-5xl">
                                     {i.textPl}
                                 </p>
-                                <p className="text-2xl font-extralight mt-5">
+                                <p className="text-2xl font-extralight">
                                     {i.textEs}
+                                </p>
+                                <p className="text-3xl xs:text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-5xl mt-5">
+                                    {i.time}
                                 </p>
                             </motion.div>
                             }
