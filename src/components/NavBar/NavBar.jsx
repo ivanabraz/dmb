@@ -60,7 +60,7 @@ const NavBar = () => {
                                     ))}
                                     {navigation.form.map((page) => (
                                         <div key={page.name} >
-                                            <a href={"https://" + page.href} target="_blank" className="block text-white text-3xl xs:text-3xl sm:text-2xl lg:text-3xl" onClick={() => setOpen(false)}> 
+                                            <a href={"https://" + page.href} target="_blank" rel="noopener noreferrer" className="block text-white text-3xl xs:text-3xl sm:text-2xl lg:text-3xl" onClick={() => setOpen(false)}> 
                                                 {page.name}
                                             </a>
                                         </div>
@@ -97,7 +97,7 @@ const NavBar = () => {
                                 ))}
                                 {navigation.form.map((page) => (
                                     <div key={page.name} >
-                                        <a smooth href={"https://" + page.href} target="_blank" className="flex items-center text-white border-b border-transparent hover:border-solid hover:border-b hover:border-white" onClick={() => setOpen(false)}> 
+                                        <a smooth href={"https://" + page.href} target="_blank" rel="noopener noreferrer" className="flex items-center text-white border-b border-transparent hover:border-solid hover:border-b hover:border-white" onClick={() => setOpen(false)}> 
                                             {page.name}
                                         </a>
                                     </div>
