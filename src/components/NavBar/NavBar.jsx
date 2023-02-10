@@ -17,6 +17,9 @@ const navigation = {
         { name: 'Kiedy?', href: '/#kiedy', icon:'', target:'_self' },
         { name: 'Program', href: '/#program', icon:'', target:'_self' },
     ],
+    form: [
+        { name: "Asistencia", href: 'forms.gle/XR7BM2VgFra9Fs8B6', target:'_blank' },
+    ],
     social: [
         { name: 'Instagram', icon: <FontAwesomeIcon icon={faInstagram} />, href: 'instagram.com/harcerstwoargentyna/'},
         { name: 'Facebook', icon: <FontAwesomeIcon icon={faFacebookSquare} />, href: 'facebook.com/harcerstwo.argentyna/'},
@@ -55,6 +58,13 @@ const NavBar = () => {
                                             </NavHashLink>
                                         </div>
                                     ))}
+                                    {navigation.form.map((page) => (
+                                        <div key={page.name} >
+                                            <a href={"https://" + page.href} target="_blank" className="block text-white text-3xl xs:text-3xl sm:text-2xl lg:text-3xl" onClick={() => setOpen(false)}> 
+                                                {page.name}
+                                            </a>
+                                        </div>
+                                    ))}
                                     <div className="flex flex-row justify-around">
                                         {navigation.social.map((page) => (
                                             <div key={page.name}>
@@ -83,6 +93,13 @@ const NavBar = () => {
                                         <NavHashLink smooth to={page.href} className="flex items-center text-white border-b border-transparent hover:border-solid hover:border-b hover:border-white" onClick={() => setOpen(false)}> 
                                             {page.name}
                                         </NavHashLink>
+                                    </div>
+                                ))}
+                                {navigation.form.map((page) => (
+                                    <div key={page.name} >
+                                        <a smooth href={"https://" + page.href} target="_blank" className="flex items-center text-white border-b border-transparent hover:border-solid hover:border-b hover:border-white" onClick={() => setOpen(false)}> 
+                                            {page.name}
+                                        </a>
                                     </div>
                                 ))}
                             </div>
