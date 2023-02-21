@@ -16,7 +16,7 @@ const info = [
                 delay: 0.1,
             },
             {
-                time:'13:00',
+                time:'12:30',
                 activity:'Obiad',
                 delay: 0.2,
             },

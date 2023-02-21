@@ -16,6 +16,7 @@ const navigation = {
         { name: 'Gdzie?', href: '/#gdzie', icon:'', target:'_self' },
         { name: 'Kiedy?', href: '/#kiedy', icon:'', target:'_self' },
         { name: 'Program', href: '/#program', icon:'', target:'_self' },
+        { name: 'Śpiewnik', href: '/#spiewnik', icon:'', target:'_self' },
     ],
     form: [
         { name: "Asistencia", href: 'forms.gle/XR7BM2VgFra9Fs8B6', target:'_blank' },

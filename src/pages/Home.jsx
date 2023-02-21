@@ -6,6 +6,7 @@ import Header from '../components/Header/Header';
 import HeroText from '../components/HeroText/HeroText';
 import Kiedy from '../components/Kiedy/Kiedy';
 import Program from '../components/Program/Program';
+import Spiewnik from '../components/Spiewnik/Spiewnik';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Gdzie/>
             <Kiedy/>
             <Program/>
+            <Spiewnik/>
             <HeroText title="Związek Harcerstwa Polskiego w Argentynie" backgroundColor="bg-green-2"/>
         </Fragment>
     );
