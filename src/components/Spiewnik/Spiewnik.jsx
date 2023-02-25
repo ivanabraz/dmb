@@ -26,14 +26,14 @@ const Spiewnik = () => {
             </div>
 
             {/* BUTTON */}
-            <div className='py-0 xs:py-[4em] sm:py-[4em] md:py-0 w-full h-full bg-blue-3 flex flex-col justify-center m-auto text-center text-5xl'>
+            <div className='py-[3em] xs:py-[3em] sm:py-[4em] md:py-0 w-full h-full bg-blue-3 flex flex-col justify-center m-auto text-center text-5xl'>
                 <div className="margin-auto">
                     <p className="">
                         Śpiewnik
                     </p>
                     <a href="https://zhp-spiewnik.netlify.app/" target="_blank" rel="noopener noreferrer">
                         <button className="border w-fit text-base m-auto px-4 py-2 rounded-full mt-10">
-                            Visitar / Odwiedzić stronę →
+                            →
                         </button>
                     </a>
                 </div>
