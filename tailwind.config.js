@@ -7,7 +7,11 @@ module.exports = {
         screens: {
         'xs': '475px',
         ...defaultTheme.screens,
-        }
+        },
+                fontFamily: {
+            'sans': ['"Work Sans"'],
+            'body': ['"Work Sans"'],
+        },
     },
     plugins: [
     ],
